@@ -38,7 +38,7 @@ public class BaseClass {
 	public Xls_Reader xls;
 	
 	public BaseClass(){
-		//Done BaseClass
+		//Done BaseClass My Project in GIT hub.
 		PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\config_package\\Log4j_File.properties");
 		init();
 		xls = new Xls_Reader(pro.getProperty("Excel_data_Path"));
