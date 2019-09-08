@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10718" started-at="2019-08-03T07:56:36Z" finished-at="2019-08-03T07:56:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10718" started-at="2019-08-03T07:56:36Z" finished-at="2019-08-03T07:56:47Z">
+      <class name="main_Package.CallingClass">
+        <test-method status="PASS" signature="mainMethod(java.util.Hashtable)[pri:0, instance:main_Package.CallingClass@3a0d172f]" name="mainMethod" duration-ms="10518" started-at="2019-08-03T13:26:36Z" data-provider="getData" finished-at="2019-08-03T13:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Year=1988, Month=JUL, Password=Selenium, URL=https://www.rediff.com/, City=Delhi, User=Selenium, Day=10, Browser=chrome, Country=India}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMethod -->
+        <test-method status="PASS" signature="getDown()[pri:0, instance:main_Package.CallingClass@3a0d172f]" name="getDown" is-config="true" duration-ms="180" started-at="2019-08-03T13:26:47Z" finished-at="2019-08-03T13:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDown -->
+      </class> <!-- main_Package.CallingClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

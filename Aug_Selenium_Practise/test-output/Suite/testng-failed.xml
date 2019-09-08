@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test_Multi_Test_2(failed)">
+    <classes>
+      <class name="testNG_Practise.Multi_Test_1">
+        <methods>
+          <include name="Logout"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testNG_Practise.Multi_Test_1 -->
+      <class name="testNG_Practise.Multi_Test_2">
+        <methods>
+          <include name="Registration"/>
+          <include name="LoginTest"/>
+          <include name="PasswordUpdate"/>
+        </methods>
+      </class> <!-- testNG_Practise.Multi_Test_2 -->
+    </classes>
+  </test> <!-- Test_Multi_Test_2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
