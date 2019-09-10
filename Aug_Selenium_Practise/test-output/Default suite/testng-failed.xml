@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="main_Package.CallingClass">
+      <class name="testing_Sep.ChromeLog">
         <methods>
-          <include name="mainMethod" invocation-numbers="0"/>
-          <include name="getDown"/>
+          <include name="testing"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- main_Package.CallingClass -->
+      </class> <!-- testing_Sep.ChromeLog -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

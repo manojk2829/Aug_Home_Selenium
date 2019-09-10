@@ -2,6 +2,7 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
     <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
@@ -48,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\manoj\AppData\Local\Temp\testng-eclipse-507665135\testng-customsuite.xml</span>
+                    <span>C:\Users\manoj\AppData\Local\Temp\testng-eclipse-336415645\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="main_Package.CallingClass" hash-for-method="mainMethod({Year=1988, Month=JUL, Password=Selenium, URL=https://www.rediff.com/, City=Delhi, User=Selenium, Da...)">mainMethod({Year=1988, Month=JUL, Password=Selenium, URL=https://www.rediff.com/, City=Delhi, User=Selenium, Da...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testing_Sep.ChromeLog" hash-for-method="testing">testing</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,15 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">main_Package.CallingClass</span>
+              <span class="class-name">testing_Sep.ChromeLog</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="mainMethod({Year=1988, Month=JUL, Password=Selenium, URL=https://www.rediff.com/, City=Delhi, User=Selenium, Da...)">
-                  </a> <!-- mainMethod({Year=1988, Month=JUL, Password=Selenium, URL=https://www.rediff.com/, City=Delhi, User=Selenium, Da...) -->
-                  <span class="method-name">mainMethod</span>
-                  <span class="parameters">({Year=1988, Month=JUL, Password=Selenium, URL=https://www.rediff.com/, City=Delhi, User=Selenium, Day=10, Browser=chrome, Country=India})</span>
+                  <a name="testing">
+                  </a> <!-- testing -->
+                  <span class="method-name">testing</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\manoj\AppData\Local\Temp\testng-eclipse-507665135\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\manoj\AppData\Local\Temp\testng-eclipse-336415645\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +144,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;main_Package.CallingClass&quot;/&gt;
+      &lt;class name=&quot;testing_Sep.ChromeLog&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'mainMethod')
-data.setCell(0, 2, 'main_Package.CallingClass')
-data.setCell(0, 3, 10518);
+data.setCell(0, 1, 'testing')
+data.setCell(0, 2, 'testing_Sep.ChromeLog')
+data.setCell(0, 3, 9033);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,15 +219,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">main_Package.CallingClass</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">mainMethod({Year=1988, Month=JUL, Password=Selenium, URL=https://www.rediff.com/, City=Delhi, User=Selenium, Da...)</span>
+              <div class="chronological-class-name">testing_Sep.ChromeLog</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testing</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getDown</span>
-                <span class="method-start">10519 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
